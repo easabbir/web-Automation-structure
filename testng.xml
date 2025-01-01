@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="classes" thread-count="5">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Hi/Downloads/Automation Class-20230807T133656Z-001/Automation Class/5. class - AutomationAppium/pihr-test-automation/web-boilerplate">
+        <classes>
+            <class name="testcases.TestHomePage">
+                <methods>
+                    <include name="testHomePageURL"/>
+                    <include name="testHomePageTitle"/>
+                </methods>
+            </class>
+            <class name="testcases.TestLoginPage">
+                <methods>
+                    <include name="testLoginWithValidCredentials"/>
+                    <include name="testLoginWithInvalidPassword"/>
+                    <include name="testLoginWithInvalidEmailAndPassword"/>
+                    <include name="testLoginWithInvalidEmailAndValidPassword"/>
+                    <include name="testLoginWithoutEmailAndPassword"/>
+                    <include name="testLoginEmailAndWithoutPassword"/>
+                    <include name="testLoginWithInvalidCredentials"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
