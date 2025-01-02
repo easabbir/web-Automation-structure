@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8a18202-0b07-47ae-9866-24f4ab1233b1" name="Changes" comment="">
+    <list default="true" id="b8a18202-0b07-47ae-9866-24f4ab1233b1" name="Changes" comment="updated readme file">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/TestLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/TestLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/DataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/DataSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +47,7 @@
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.C:/Users/Hi/Downloads/Automation Class-20230807T133656Z-001/Automation Class/5. class - AutomationAppium/pihr-test-automation/web-boilerplate/testng.xml">
     <configuration name="C:/Users/Hi/Downloads/Automation Class-20230807T133656Z-001/Automation Class/5. class - AutomationAppium/pihr-test-automation/web-boilerplate/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="web-boilerplate" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -54,9 +58,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestLoginPage.testLoginWithInvalidCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="web-boilerplate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.TestLoginPage" />
+      <option name="METHOD_NAME" value="testLoginWithInvalidCredentials" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLoginPage.testLoginWithInvalidEmailAndValidPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="web-boilerplate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.TestLoginPage" />
+      <option name="METHOD_NAME" value="testLoginWithInvalidEmailAndValidPassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/Hi/Downloads/Automation Class-20230807T133656Z-001/Automation Class/5. class - AutomationAppium/pihr-test-automation/web-boilerplate/testng.xml" />
+        <item itemvalue="TestNG.TestLoginPage.testLoginWithInvalidCredentials" />
+        <item itemvalue="TestNG.TestLoginPage.testLoginWithInvalidEmailAndValidPassword" />
       </list>
     </recent_temporary>
   </component>
@@ -69,6 +111,35 @@
       <option name="presentableId" value="Default" />
       <updated>1735622996997</updated>
     </task>
+    <task id="LOCAL-00001" summary="updated readme file">
+      <option name="closed" value="true" />
+      <created>1735721342806</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735721342806</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated readme file" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated readme file" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/testcases/TestLoginPage.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/testcases/TestLoginPage.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
